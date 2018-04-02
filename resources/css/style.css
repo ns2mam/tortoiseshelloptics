@@ -39,6 +39,7 @@ header {
 }
 
 .banner {
+  display: flex;
   height: 31rem;
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
@@ -56,6 +57,10 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+}
+
+.services {
+  display: flex;
 }
 
 .service {
@@ -106,6 +111,7 @@ p {
 
 footer {
   background-color: azure;
+  display: flex;
 }
 
 .copyright {
