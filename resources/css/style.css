@@ -4,16 +4,40 @@ html {
   font-family: Helvetica;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 header {
   background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+}
+
+.banner {
+  height: 31rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .headline {
   background-color: white;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
 h2 {
   background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 footer {
