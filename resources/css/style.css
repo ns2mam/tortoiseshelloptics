@@ -108,6 +108,16 @@ footer {
   background-color: azure;
 }
 
+.copyright {
+  padding: 4rem 0 4rem 4rem;
+}
+
 .copyright img {
   height: 1.5rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.copyright span {
+  vertical-align: middle;
 }
