@@ -21,6 +21,8 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 3.4rem;
+  line-height: 1.4;
+  margin-top: 1rem;
 }
 
 .logo img {
@@ -40,6 +42,7 @@ header {
 
 .banner {
   display: flex;
+/*  flex-direction: column;*/
   height: 31rem;
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
@@ -61,10 +64,20 @@ h1 {
 
 .services {
   display: flex;
+  justify-content: center;
 }
 
 .service {
   height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 1.4;
+  }
+
+.image {
+  height: 5rem;
 }
 
 #exams {
@@ -82,9 +95,14 @@ h1 {
   height: auto;
 }
 
+.description {
+  text-align: center;
+}
+
 .about {
   display: flex;
   justify-content: center;
+  line-height: 1.4;
 }
 
 .item {
@@ -112,6 +130,7 @@ p {
 footer {
   background-color: azure;
   display: flex;
+  line-height: 1.4;
 }
 
 .copyright {
