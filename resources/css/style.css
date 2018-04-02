@@ -4,6 +4,10 @@ html {
   font-family: Helvetica;
 }
 
+div {
+  display: block;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -13,6 +17,10 @@ header {
   background-color: cadetblue;
   color: white;
   font-size: 1rem;
+}
+
+.logo img {
+  height: 1.5rem;
 }
 
 .banner {
@@ -33,6 +41,25 @@ h1 {
   line-height: 1.2;
 }
 
+.service {
+  height: 8rem;
+}
+
+#exams {
+  width: 3.5rem;
+  height: auto;
+}
+
+#fittings {
+  width: 5rem;
+  height: auto;
+}
+
+#delivery {
+  width: 5rem;
+  height: auto;
+}
+
 h2 {
   background-color: cadetblue;
   color: white;
@@ -42,4 +69,8 @@ h2 {
 
 footer {
   background-color: azure;
+}
+
+.copyright img {
+  height: 1.5rem;
 }
