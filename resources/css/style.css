@@ -1,0 +1,21 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+.headline {
+  background-color: white;
+}
+
+h2 {
+  background-color: cadetblue;
+}
+
+footer {
+  background-color: azure;
+}
